@@ -1,0 +1,35 @@
+.one {
+width: 26%;
+font-size: 15px;
+border: 2px solid #ccc;
+padding: 8px 15px;
+border-radius: 8px;
+letter-spacing: 1px;
+color: rgb(38, 50, 56);
+}
+.input-in {
+	width: 59%;
+font-size: 15px;
+border: 2px solid #ccc;
+padding: 8px 15px;
+border-radius: 8px;
+letter-spacing: 1px;
+color: rgb(38, 50, 56);
+box-sizing: border-box;
+}
+.btn {
+	width: 59%;
+	background: lightblue;
+	border: 2px solid lightblue;
+	border-radius: 9px;
+	margin: 7px 0;
+	padding: 10px 10px;
+	color: white;
+	font-size: 16px;
+}
+.frm {
+	margin-left: 20px;
+}
+a {
+	text-decoration: none;
+}
