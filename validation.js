@@ -6,6 +6,11 @@
 		alert("Names cannot be blank");
 		return false; 
 	}*/
+
+	var request = new XMLHttpRequest();
+	request.open("GET", https://microblog.azurewebsites.net/index.html, true);
+	  request.send();
+
 	const pNumber = document.getElementById("p-number");
 	const eMail = document.getElementById("email");
 	const pass = document.getElementById("pword");
