@@ -1,14 +1,7 @@
-/*function validation() {
 
-	var firstN = document.getElementById("fname");
-	var lastN = document.getElementById("lname");
-	if (firstN.value == "" || lastN.value == "") {
-		alert("Names cannot be blank");
-		return false; 
-	}*/
 
 	var request = new XMLHttpRequest();
-	request.open("GET", https://microblog.azurewebsites.net/index.html, true);
+	request.open("GET", https://microblog.azurewebsites.net/api/v1/Auth/register, true);
 	  request.send();
 
 	const pNumber = document.getElementById("p-number");
