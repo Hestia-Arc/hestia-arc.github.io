@@ -1,7 +1,7 @@
 
 
 	var request = new XMLHttpRequest();
-	request.open("GET", https://microblog.azurewebsites.net/api/v1/Auth/register, true);
+	request.open("GET", https://microblog.azurewebsites.net/api/v1/Auth/login, true);
 	  request.send();
 
 	const pNumber = document.getElementById("p-number");
