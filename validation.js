@@ -1,5 +1,5 @@
 
-
+	debugger;
 	var request = new XMLHttpRequest();
 	request.open("GET", https://microblog.azurewebsites.net/api/v1/Auth/register, true);
 	  request.send();
