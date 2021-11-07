@@ -1,9 +1,15 @@
 
-	debugger;
-	var request = new XMLHttpRequest();
-	request.open("GET", https://microblog.azurewebsites.net/api/v1/Auth/register, true);
-	  request.send();
+	var http = new XMLHttpRequest();
+	var url = "https://microblog.azurewebsites.net/api/v1/Auth/register";
+	http.open("GET", url);
+	 http.send();
 
+	http.onreadystatechange = (e) => {
+		if (this.readyState==4 && this.status==200) {
+		console.log(http.responseText)
+	}
+	}    
+	     
 	const pNumber = document.getElementById("p-number");
 	const eMail = document.getElementById("email");
 	const pass = document.getElementById("pword");
