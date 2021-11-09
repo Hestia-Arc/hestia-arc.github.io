@@ -2,13 +2,13 @@
 	var http = new XMLHttpRequest();
 	var url = "https://microblog.azurewebsites.net/api/v1/Auth/register";
 	http.open("GET", url, true);
-
+	http.send();
 	http.onreadystatechange = function() {
-		if (http.readyState == 4) {
-		var resp = JSON.parse(http.responseText);
+		if (this.readyState == 4 && this.status == 200) {
+		console.log(http.responseText);
 	}
 	}    
-	   http.send();
+	   
 
 	const pNumber = document.getElementById("p-number");
 	const eMail = document.getElementById("email");
