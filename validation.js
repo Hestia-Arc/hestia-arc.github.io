@@ -1,6 +1,6 @@
 
 	var http = new XMLHttpRequest();
-	var url = "https://microblog.azurewebsites.net/api/v1/Auth/register";
+	var url = "https://microblog.azurewebsites.net";
 	http.open("POST", url, true);
 	http.send();
 	http.onreadystatechange = function() {
