@@ -1,13 +1,15 @@
 
 	var http = new XMLHttpRequest();
 	var url = "https://microblog.azurewebsites.net/api/v1/Auth/register/";
-	http.open("GET", url, true);
-	http.send();
+	
 	http.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
 		console.log(http.responseText);
 	}
 	}    
+
+	http.open("GET", url, true);
+	http.send(null);
 	   
 
 	const pNumber = document.getElementById("p-number");
