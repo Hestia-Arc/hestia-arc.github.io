@@ -7,7 +7,7 @@
 	}
 	}    
 
-	http.open("GET", url, true);
+	http.open("POST", url, true);
 	http.send(null);
 	   
 
