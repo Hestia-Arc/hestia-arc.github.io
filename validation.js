@@ -6,7 +6,6 @@
 		console.log(http.responseText);
 	}
 	}    
-
 	http.open("POST", url, true);
 	http.send(null);
 	   
