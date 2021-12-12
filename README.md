@@ -1,2 +1,4 @@
 # hestia-arc.github.io
-twitter project
+
+A Twitter clone project.
+Using JavaScript for Form validation with regular expression.
